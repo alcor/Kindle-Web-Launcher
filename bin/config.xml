@@ -17,6 +17,7 @@
     <kindle:network>
         <kindle:asset key="user-agent" value="Mozilla/5.0 (X11; U; Linux armv7l like Android; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Version/5.0 Safari/533.2+ Kindle/3.0+" />
         <kindle:asset key="enableWrsProxy" value="true" />
+        <kindle:asset key="allowTlsFallback" value="true" />
     </kindle:network>
 
     <kindle:cookiejar>
@@ -30,11 +31,11 @@
     </kindle:chrome>
 
     <kindle:gestures>
-        <kindle:param name="drag" value="yes"/>                                                                                                                              
-        <kindle:param name="pinchzoom" value="yes" properties="fire-on-zoom:1"/>                                                                                             
-        <kindle:param name="tap" value="yes"/>                                                                                                                               
-        <kindle:param name="multi_tap" value="yes"/>                                                                                                                         
-        <kindle:param name="hold" value="yes"/> 
+        <kindle:param name="drag" value="yes"/>
+        <kindle:param name="pinchzoom" value="yes" properties="fire-on-zoom:1"/>
+        <kindle:param name="tap" value="yes"/>
+        <kindle:param name="multi_tap" value="no"/>
+        <kindle:param name="hold" value="no"/>
     </kindle:gestures>
 
     <feature name="http://kindle.amazon.com/apis" required="true">
