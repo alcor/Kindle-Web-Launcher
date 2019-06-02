@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<widget id="com.PaulFreund.WebLaunch" version="1.0" viewmodes="application" xmlns="http://www.w3.org/ns/widgets" xmlns:kindle="http://kindle.amazon.com/ns/widget-extensions">
+<widget id="com.PaulFreund.KindleWebLauncher" version="1.0" viewmodes="application" xmlns="http://www.w3.org/ns/widgets" xmlns:kindle="http://kindle.amazon.com/ns/widget-extensions">
 
-    <name xml:lang="en">WebLaunch</name>
-    <description xml:lang="en">WebLaunch</description>
+    <name xml:lang="en">Kindle Web Launcher</name>
+    <description xml:lang="en">Kindle Web Launcher</description>
 
-    <name xml:lang="de">WebLaunch</name>
-    <description xml:lang="de">WebLaunch</description>
+    <name xml:lang="de">Kindle Web Launcher</name>
+    <description xml:lang="de">Kindle Web Launcher</description>
 
     <content src="index.html"/>
 
@@ -55,7 +55,7 @@
     </kindle:settings>
 
     <kindle:messaging>
-        <kindle:app name="com.PaulFreund.WebLaunch" value="yes" />
+        <kindle:app name="com.PaulFreund.KindleWebLauncher" value="yes" />
         <kindle:app name="com.lab126.pillow" value="yes" />
     </kindle:messaging>
 

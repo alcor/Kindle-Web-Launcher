@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension>
 	<information>
-		<name>WebLaunch</name>
+		<name>KindleWebLauncher</name>
 		<version>2.0</version>
-		<author>PaulFreund</author>
-		<id>WebLaunch</id>
+		<author>PaulFreund, Nicholas Jitokff</author>
+		<id>KindleWebLauncher</id>
 	</information>
 	<menus>
 		<menu type="json" dynamic="true">menu.json</menu>

@@ -39,7 +39,7 @@ pillowHelper.RequestStatusBarEvent              // Request specific system event
 
 pillowHelper.Run(
 	'default_status_bar',
-	'com.PaulFreund.WebLaunch',
+	'com.PaulFreund.KindleWebLauncher',
 	function() 
 	{
 		// Get the Screen saver prevention status
@@ -80,7 +80,7 @@ pillowHelper.Run(
 //------------------------------------------------------------------------------
 
 pillowHelper.RegisterStatusBarEventCallback(
-	'com.PaulFreund.WebLaunch', 
+	'com.PaulFreund.KindleWebLauncher', 
 	function(value) 
 	{
 		document.write(JSON.stringify(value));
@@ -88,7 +88,7 @@ pillowHelper.RegisterStatusBarEventCallback(
 );
 
 // Later when you close the app, this is very IMPORTANT
-pillowHelper.UnRegisterStatusBarEventCallback('com.PaulFreund.WebLaunch');
+pillowHelper.UnRegisterStatusBarEventCallback('com.PaulFreund.KindleWebLauncher');
 
 //==============================================================================
 // pillowHelper.RequestStatusBarEvent 
@@ -114,7 +114,7 @@ pillowHelper.UnRegisterStatusBarEventCallback('com.PaulFreund.WebLaunch');
 //------------------------------------------------------------------------------
 
 pillowHelper.RequestStatusBarEvent(
-	'com.PaulFreund.WebLaunch', 
+	'com.PaulFreund.KindleWebLauncher', 
 	'org.freedesktop.DBus', 
 	'NameOwnerChanged'
 );

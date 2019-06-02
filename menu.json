@@ -1,5 +1,5 @@
 {
 	"items": [
-		{"name": "WebLaunch", "priority": 0, "action": "bin/start.sh"}
+		{"name": "Kindle Web Launcher", "priority": 0, "action": "bin/start.sh"}
 	]
 }

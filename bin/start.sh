@@ -3,11 +3,11 @@
 ###############################################################################
 ## Configuration variables 
 
-APP_FOLDER="/mnt/us/extensions/WebLaunch"
+APP_FOLDER="/mnt/us/extensions/KindleWebLauncher"
 
 APPREG="/var/local/appreg.db"
 
-APP_ID="com.PaulFreund.WebLaunch"
+APP_ID="com.PaulFreund.KindleWebLauncher"
 APP_ID_STRING="'$APP_ID'"
 
 ## WARNING - Changing the extension path after first run will result in errors,
